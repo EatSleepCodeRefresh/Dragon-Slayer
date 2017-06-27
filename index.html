@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+	<title>Dragon Strike</title>
+</head>
+
+<body>
+<script>
+var swords = new Audio();
+swords.src = "swords.wav";
+</script>
+<embed src="Rammstein.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+	<h1>Dragon Slayer!!</h1>
+	<img id="dragon" src="images/dragon3.jpg" align="center">
+	<br>
+	<button type="button" onmousedown="swords.play()" onclick="dragon_slayer();">Attack</button>
+	<h2 id="result"></h2>
+	<h2 id="damage"></h2>
+	<script src="script.js"></script>
+</body>
+</html>

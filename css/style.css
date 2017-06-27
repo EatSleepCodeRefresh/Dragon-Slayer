@@ -1,0 +1,35 @@
+#dragon {
+	width: 500px;
+}
+
+body {
+	background: url("../images/fire.gif"); 
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Frijole', cursive;
+	color: red;
+	font-size: 28px;
+	text-shadow: 2px 2px white;
+}
+
+h2{
+	font-family: 'Frijole', cursive;
+	color: red;
+	font-size: 20px;
+	text-shadow: 2px 2px white;
+}
+
+button {
+	color: red;
+	font-size: 18px;
+	background: url("../images/sword.png");
+	background-color: black;
+	border-radius: 3em;
+	border: none;
+	height: 3em;
+	width: 8em;
+	
+}
